@@ -1,0 +1,74 @@
+/* Colors */
+:root {
+    --maroon: #800000;
+    --beige: #F5F5DC;
+    --light-beige: #EFE6D9;
+    --white: #FFFFFF;
+}
+
+/* Global */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--light-beige);
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--maroon);
+    color: var(--beige);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: var(--beige);
+    color: var(--maroon);
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+/* Sections */
+.section {
+    background-color: var(--white);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.section h2 {
+    color: var(--maroon);
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    background-color: var(--light-beige);
+    margin: 8px 0;
+    padding: 10px;
+    border-left: 5px solid var(--maroon);
+}
+
+/* Footer */
+footer {
+    background-color: var(--maroon);
+    color: var(--beige);
+    text-align: center;
+    padding: 15px;
+}
